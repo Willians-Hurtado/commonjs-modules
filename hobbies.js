@@ -1,10 +1,11 @@
 function hobbies(hobbyOne, hobbyTwo, hobbyThree){
-    return ["Macchine", "Cinema", "Soldi"]
+    return {hobbyOne, hobbyTwo, hobbyThree}
 }
 
-console.log(hobbies);
+const myHobbies = hobbies('Movies', 'Cars', 'Money')
+console.log(myHobbies);
 
 
 module.exports = {
-    hobbies
+    myHobbies
 }

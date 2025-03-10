@@ -2,11 +2,12 @@ function names(firstName, lastName){
     return {firstName, lastName}
 }
 
-console.log(names);
+const Name = names('Matteo', 'Ricci')
+console.log(Name);
 
 
 module.exports = {
-    names
+    Name
 }
 
 
